@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:ital,wght@0,400;0,700;0,800;1,700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="icon" href="./images/favicon-32x32.png" type="image/png" sizes="32x32">
+    <title>Fylo data storage component</title>
+</head>
+<body>
+    <main class="container">
+
+           <!--     code for icons          -->
+
+        <div class="header box">
+            <img src="./images/logo.svg" alt="this is logo" aria-hidden="true" class="logo">
+            <div class="icons">
+                <div class="document cont">
+                    <img src="./images/icon-document.svg" alt="this is document icon" class="documentImg">
+                </div>
+                <div class="folder cont">
+                    <img src="./images/icon-folder.svg" alt="this is folder icon" class="folderImg">
+                </div>
+                <div class="upload cont">
+                    <img src="./images/icon-upload.svg" alt="this is upload icon" class="uploadImg">
+                </div>
+            </div>
+        </div>
+        
+            <!-- code for storage box  -->
+
+        <div class="storage box">
+            <p class="used">You've used <span class="gbUsed">815GB</span>of your storage</p>
+        
+            <div class="barBox">
+                <div class="barCont">
+                    <div class="bar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="gbNums">
+                    <p class="gb lowest">0 GB</p>
+                    <p class="gb highest">1000 GB</p>
+                </div>
+            </div>
+        </div>
+        <div class="freeSpace box">
+            <p class="gbLeft">185</p>
+            <p class="spaceLeft">GB Left</p>
+            <div class="triangle"></div>
+        </div>
+    </main>
+</body>
+</html>
